@@ -1,38 +1,64 @@
-.App {
+body {
+  background: #1e130c;  
+  background: -webkit-linear-gradient(to left, #9a8478, #1e130c); 
+  background: linear-gradient(to left, #9a8478, #1e130c);
+}
+
+#nvLogo {
+  position: relative;
+  top: 0px;
+  max-width: 150px;
+}
+
+.navLinks {
+  text-decoration: none;
   text-align: center;
+  color: white;
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 15px 10px;
+  padding: 3px 3px;
+  float: right;
+  color: #11FFBD;
+  font-size: 18px;
+  transition: color 0.3s;
+  background: black;
+  border-radius: 3px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navLinks:hover {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.navLinks:after {
+  transition: 0.2s
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homeText {
+  color: #11FFBD;
+  text-align: center;
+  text-shadow: 2px 2px 3px black;
+  font-family: 'Montserrat', sans-serif;
 }
+
+#nainoaText {
+  font-size: 80px;
+  margin: 0px;
+  /* background-color: grey; */
+}
+
+#seText {
+  font-size: 80px;
+  /* background-color: grey; */
+  
+}
+
+#portfolioText {
+  font-size: 70px;
+  margin: 0px;
+  /* background-color: grey; */
+}
+
+
+
+
+

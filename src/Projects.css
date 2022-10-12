@@ -1,3 +1,7 @@
+.card-body {
+  background-color: black;
+}
+
 .projectsText {
   text-align: center;
   color: #11FFBD;
@@ -6,4 +10,16 @@
 a {
   text-decoration: none;
   color: pink;
+  transition: color 0.5s ease;
+}
+a:hover {
+  color: white;
+}
+
+#hambaguImg {
+  max-width: 200px;
+}
+
+#anitrackImg {
+  max-width: 200px;
 }

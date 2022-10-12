@@ -5,23 +5,38 @@ function Projects() {
 
   return (
     <div>
-      <h1 className="projectsText">Projects</h1>
-      <h2 className="projectsText">Hambagu</h2>
-        {/* place image or preview of game here */}
-        <p className="projectsText">github repo</p>
-        <p className="projectsText">deployed link here</p>
-        <p className="projectsText">Technology Used:</p>
-        <p className="projectsText">information about hambagu</p>
-        
 
-      <h2 className="projectsText">aniTrack</h2>
-        {/* image or preview of anitrack here */}
-        <p className="projectsText">
-          <a href="https://github.com/nainoaktv/anime-tracker"  target="_blank">Github Repo</a>
-        </p>
-        <p className="projectsText">deployed link here</p>
-        <p className="projectsText">Technology Used:</p>
-        <p className="projectsText">aniTrack is a website that allows users to search and store anime into a watchlist within their user profile. This helps with keeping track of all anime you are currently or plan on watching.</p>
+      <div className="card mb-3" style={{width: '540px'}}>
+        <div className="row no-gutters">
+          <div className="col-md-4">
+          <img src={require('./images/hambagu.png')} alt="WaveImage" id="hambaguImg" />
+          </div>
+          <div className="col-md-8">
+            <div className="card-body">
+              <h5 className="card-title">HAMBAGU</h5>
+              <p className="card-text"><a href="https://github.com/nainoaktv/cyborg-game"  target="_blank" className="repolink">Github Repo</a></p>
+              <p className="card-text"><a href="https://nainoaktv.github.io/cyborg-game/"  target="_blank" className="siteLink">Visit Site Here</a></p>
+              <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="card mb-3" style={{width: '540px'}}>
+        <div className="row no-gutters">
+          <div className="col-md-4">
+          <img src={require('./images/anitrack.png')} alt="WaveImage" id="anitrackImg" />
+          </div>
+          <div className="col-md-8">
+            <div className="card-body">
+              <h5 className="card-title">aniTrack</h5>
+              <p className="card-text"><a href="https://github.com/nainoaktv/anime-tracker"  target="_blank" className="repolink">Github Repo</a></p>
+              <p className="card-text"><a href="https://anitrack.herokuapp.com/"  target="_blank" className="siteLink">Visit Site Here</a></p>
+              <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
         
     </div>
   )

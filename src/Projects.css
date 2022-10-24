@@ -1,4 +1,11 @@
+.card {
+  margin: 0 5px;
+}
 .card-body {
+  background-color: black;
+}
+
+.card-footer {
   background-color: black;
 }
 
@@ -7,19 +14,24 @@
   color: #11FFBD;
 }
 
+.siteLink {
+  margin: 0 75px;
+}
+
 a {
   text-decoration: none;
-  color: pink;
+  color: #7303c0;
   transition: color 0.5s ease;
 }
+
 a:hover {
   color: white;
 }
 
 #hambaguImg {
-  max-width: 200px;
+  max-width: 500px;
 }
 
 #anitrackImg {
-  max-width: 200px;
+  max-width: 500px;
 }

@@ -1,7 +1,8 @@
 body {
-  background: #1e130c;  
-  background: -webkit-linear-gradient(to left, #9a8478, #1e130c); 
-  background: linear-gradient(to left, #9a8478, #1e130c);
+  background: rgb(128,0,32);
+  background: -moz-linear-gradient(90deg, rgba(128,0,32,1) 35%, rgba(0,0,0,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(128,0,32,1) 35%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(90deg, rgba(128,0,32,1) 35%, rgba(0,0,0,1) 100%);  
 }
 
 #nvLogo {
@@ -13,13 +14,13 @@ body {
 .navLinks {
   text-decoration: none;
   text-align: center;
-  color: white;
+  font-family: 'Montserrat', sans-serif;
   display: inline-flex;
   justify-content: space-between;
   margin: 15px 10px;
   padding: 3px 3px;
   float: right;
-  color: #11FFBD;
+  color: #E1C699;
   font-size: 18px;
   transition: color 0.3s;
   background: black;
@@ -34,10 +35,12 @@ body {
 }
 
 .homeText {
-  color: #11FFBD;
+  color: #E1C699;
   text-align: center;
   text-shadow: 2px 2px 3px black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-weight: bolder;
+  font-style: italic;
 }
 
 #nainoaText {
@@ -49,7 +52,6 @@ body {
 #seText {
   font-size: 40px;
   /* background-color: grey; */
-  
 }
 
 #portfolioText {

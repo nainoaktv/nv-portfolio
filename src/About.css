@@ -6,3 +6,13 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
+
+.skill_icons {
+  font-size: 45px;
+  margin: 5px 10px 0 10px;
+}
+
+/* individual icon styling */
+#js_icon {
+  font-size: 40px;
+}

@@ -2,9 +2,23 @@ body {
   color: #E1C699;
 }
 
-.about-section {
+hr {
+  margin-top: 3px;
+}
+
+.about_page {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+#about_nainoa {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .skill_icons {

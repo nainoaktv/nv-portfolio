@@ -9,6 +9,15 @@
   background-color: black;
 }
 
+#projectsTitleText {
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
 .projectsText {
   text-align: center;
   color: #E1C699;

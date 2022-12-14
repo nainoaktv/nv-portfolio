@@ -21,10 +21,10 @@ function App() {
         <Link to="/contact" className="navLinks">Contact</Link>
         <Link to="/projects" className="navLinks">Projects</Link>
         <Link to="/about" className="navLinks">About</Link>
-        <Link to="/" className="navLinks">Home</Link>
+        <Link to="/nv-portfolio" className="navLinks">Home</Link>
       </div>
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/nv-portfolio" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
